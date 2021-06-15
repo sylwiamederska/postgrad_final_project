@@ -1,0 +1,20 @@
+install.packages("knitr")
+install.packages("dplyr")
+install.packages("RSQLite")
+install.packages("stringr")
+install.packages("reshape")
+install.packages("ggplot2")
+install.packages("tidyr")
+install.packages("gridExtra")
+install.packages("rmdformats")
+install.packages("caret")
+install.packages("naivebayes")
+install.packages("randomForest")
+install.packages("xgboost")
+install.packages("kernlab")
+install.packages ("e1071")
+
+library(knitr)
+wd <- setwd("C:/Users/Sylwia/projekt") #tu prosze wkleic swoja sciezke do folderu z pobranymi danymi
+rmarkdown::render('projekt_v0.6.Rmd')
+
